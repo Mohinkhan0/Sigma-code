@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navbar
+{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 200px;
+    font-size: 25px;
+}
+li a:hover
+ {
+    color: red;
+ }
+
+ /*  this is main content box  */
+
+ .box
+ {
+    height: 250px;
+    width: 300px;
+    background-color: rgb(202, 161, 111);
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 14px;
+    display: inline;
+ }
+  audio
+ {
+    margin-top: 180px;
+ }
+ .container
+ {
+    display: flex;
+ }
