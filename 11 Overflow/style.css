@@ -1,0 +1,10 @@
+
+.box
+{
+    height: 30vh;
+    width: 20vw;
+    border: 2px solid black;
+    overflow: auto;
+    /*  overflow ho hide kraga  */
+    /* overflow: hidden; */
+}

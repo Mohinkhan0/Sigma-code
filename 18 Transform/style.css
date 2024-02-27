@@ -1,0 +1,13 @@
+
+.box
+{
+    margin: 20px;
+    padding: 50px;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid red;
+    /* transform: rotate(40deg); */
+  transform: skew(30deg);
+
+    /* transform: scale(1.6); */
+}

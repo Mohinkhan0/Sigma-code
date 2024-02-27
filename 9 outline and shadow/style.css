@@ -1,0 +1,27 @@
+.box
+{
+    border: 1px solid black;
+    padding: 45px;
+    margin: 30px;
+    display: inline-flex;
+}
+
+.box1
+{
+    /*    width shadow ,height shadow , blur ,color */
+    box-shadow: 5px 15px  5px rgb(99, 92, 92);
+    text-shadow: 5px 5px 4px rgb(255, 2, 2);
+}
+.box2
+{
+    /*    width shadow ,height shadow , blur ,color */
+    box-shadow: 5px 15px  5px rgb(99, 92, 92);
+    text-shadow: 5px 5px 4px rgb(255, 2, 2);
+}
+
+.box3
+{
+    /*    width shadow ,height shadow , blur ,color */
+    box-shadow: 5px 15px  5px rgb(99, 92, 92);
+    text-shadow: 5px 5px 4px rgb(255, 2, 2);
+}

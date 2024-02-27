@@ -1,0 +1,23 @@
+
+/*  element selector  */
+
+h1{
+    color: mediumvioletred;
+    background-color: greenyellow;
+}
+
+/*  its id seector  its use to provide a property for a particular id */
+#first
+{
+    background-color: rgb(223, 187, 134);
+    margin-top: 100px;
+
+}
+
+/*  its our class selector its use to provide a property for more clasess */
+.second
+{
+    background-color: rgb(38, 210, 216);
+    margin-top: 100px;
+
+}

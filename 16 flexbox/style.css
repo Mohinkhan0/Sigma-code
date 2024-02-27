@@ -1,0 +1,21 @@
+.container
+{
+    height: 50vh;
+    border: 2px solid black;
+    /*  it will do our items in a line */
+    display: flex;
+    /* it will do our item center in a line -----> */
+    justify-content: center;  
+    /*  it will do our item center in our items top to bottom*/
+    align-items: center;
+
+}
+
+.item
+{
+    height: 15vh;
+    width: 15vw;
+    border: 2px solid red;
+    margin: 2px;
+    background-color: blueviolet;
+}

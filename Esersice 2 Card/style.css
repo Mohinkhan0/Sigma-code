@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.container
+{
+    margin-top: 40px;
+    margin-left: 60px ;
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    width: 25vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 8px 10px white;
+}
+
+.image-sec
+{
+    border-radius: 10px;
+   background-color: rgb(255, 255, 255);
+}
+img{
+    height: 35vh;
+    width: 24vw;
+    margin-top: 5px;
+    margin-left: 8px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+
+.capsules
+{
+   padding: 15px 5px;
+
+}
+.capsules  span
+{
+    padding: 7px;
+    margin-left: 15px;
+    background-color: rgb(6, 255, 255);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+span:hover
+{
+    background-color: rgb(255, 0, 0);
+}
+
+.heading
+{
+    padding-left: 15px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.para
+{
+    padding-left: 15px; 
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+.readmore
+{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.readmore button
+{
+
+    padding: 7px;
+    margin-left: 15px;
+    border: 2px solid black;
+    background-color: rgb(115, 159, 241);
+    border-radius: 50px;
+}
+
+button:hover
+{
+    background-color: rgb(255, 0, 0);
+}

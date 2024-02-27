@@ -1,0 +1,24 @@
+.container
+{
+    height: 70vh;
+    width: 80vw;
+    border: 2px solid black;
+}
+
+.box
+{
+     /* margin: 15px; */
+    height: 20vh;
+    width: 22vw;
+    border: 2px solid red; 
+    transition-property: background-color, transform;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+.translate
+{
+    transform: translateX(10vw) translateY(15vw);
+   background-color: black;
+}

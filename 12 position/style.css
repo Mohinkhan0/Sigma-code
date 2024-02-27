@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 20vh;
+  width: 20vw;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.box1 {
+  background-color: rgb(255, 0, 0);
+  position: static;
+}
+
+.box2 {
+  background-color: aqua;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.box3 {
+  background-color: rgb(255, 0, 200);
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+}
+
+.box4 {
+  background-color: rgb(0, 255, 55);
+  position: sticky;
+  /* position sticky -> ya position ko fixed kraga jab iski position aajyagi */
+  /*  postion relative -> ya position apna position sa move kraga ya body ka oposit  */
+  /*  position absolute -> apna parent ki postion ka relative position lega  */
+  /* position fixed ->  alwys fixed */
+}
